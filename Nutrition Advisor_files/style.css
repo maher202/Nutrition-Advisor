@@ -1,0 +1,130 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    /* Light Blue */
+    color: #333;
+    /* Dark Gray */
+    padding-bottom: 60px;
+    /* For footer */
+}
+
+header {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    color: #4CAF50;
+    /* Green */
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Adjusting the size of selection arrows */
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+    /* Make room for the arrow */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23333"><path d="M5 7l5 5 5-5z" /></svg>');
+    /* Arrow SVG */
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    /* Position the arrow */
+    background-size: 16px;
+    /* Size of the arrow */
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    /* Dark Gray */
+    color: white;
+}
+
+
+/* Colors for specific words */
+
+.normal {
+    color: #28a745;
+    /* Green */
+}
+
+.underweight {
+    color: #007bff;
+    /* Blue */
+}
+
+.obese {
+    color: #dc3545;
+    /* Red */
+}
+
+#results {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light Gray */
+    border-radius: 8px;
+}
+
+#results h2 {
+    margin-bottom: 10px;
+    color: #333;
+    /* Dark Gray */
+}
